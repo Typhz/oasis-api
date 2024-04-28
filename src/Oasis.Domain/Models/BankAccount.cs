@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Oasis.Enums;
 
-namespace Oasis.Models
+namespace Oasis.Domain.Models
 {
 	public class Bank
 	{

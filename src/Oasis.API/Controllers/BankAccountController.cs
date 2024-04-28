@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
-using Oasis.Context;
-using Oasis.DTOs;
-using Oasis.Models;
+using Oasis.API.DTOs;
+using Oasis.Domain.Models;
+using Oasis.Infra.Context;
 
-namespace Oasis.Controllers;
+namespace Oasis.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

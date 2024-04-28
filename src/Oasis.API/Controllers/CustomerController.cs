@@ -1,18 +1,16 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
-using Microsoft.EntityFrameworkCore;
-using System.Text;
 using System.Security.Claims;
+using System.Text;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.ComponentModel;
-using Oasis.Models;
-using Oasis.Context;
-using Oasis.DTOs;
+using Oasis.API.DTOs;
+using Oasis.Domain.Models;
+using Oasis.Infra.Context;
+using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
-namespace Oasis.Controllers
+namespace Oasis.API.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]

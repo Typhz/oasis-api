@@ -1,11 +1,12 @@
+using System.Text;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Oasis.Context;
-using System.Text;
-using System.Text.Json.Serialization;
-using Oasis.Seed;
+using Oasis.API.Middlewares;
+using Oasis.API.Seed;
+using Oasis.Infra.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 

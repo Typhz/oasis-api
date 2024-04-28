@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Oasis.Enums;
-using Oasis.Models;
+using Oasis.Domain.Models;
 
-namespace Oasis.Context;
+namespace Oasis.Infra.Context;
 
 public class EntityContext(DbContextOptions options) : DbContext(options)
 {

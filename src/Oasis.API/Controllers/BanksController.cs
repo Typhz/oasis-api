@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Oasis.Context;
+using Oasis.Infra.Context;
 
-namespace Oasis.Controllers;
+namespace Oasis.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

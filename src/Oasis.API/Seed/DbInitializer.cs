@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Oasis.Context;
-using Oasis.Models;
+using Oasis.Domain.Models;
+using Oasis.Infra.Context;
 
-namespace Oasis.Seed;
+namespace Oasis.API.Seed;
 
 public class DbInitializer
 {

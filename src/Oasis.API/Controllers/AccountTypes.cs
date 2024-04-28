@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Oasis.Enums;
 
-namespace Oasis.Controllers;
+namespace Oasis.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

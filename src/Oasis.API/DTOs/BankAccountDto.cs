@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Oasis.Models;
+using Oasis.Domain.Models;
 
-namespace Oasis.DTOs;
-
+namespace Oasis.API.DTOs;
 
 public class BankAccountDto
 {
