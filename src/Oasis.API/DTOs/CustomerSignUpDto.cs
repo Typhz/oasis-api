@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Oasis.DTOs {
+namespace Oasis.API.DTOs {
     public class CustomerSignUpDto
     {
         [Required]

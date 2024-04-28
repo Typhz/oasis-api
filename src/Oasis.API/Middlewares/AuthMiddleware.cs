@@ -1,7 +1,9 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using Oasis.Context;
+using Oasis.Infra.Context;
+
+namespace Oasis.API.Middlewares;
 
 public class AuthMiddleware
 {
